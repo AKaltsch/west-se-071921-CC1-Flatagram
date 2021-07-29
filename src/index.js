@@ -61,9 +61,9 @@ function clickPost() {
     })
 }
 
-// function addComment() {
-//     const commentForm = document.querySelector('#fg-comments')
-//     const commentLi = document.createElement('li')
-//     commentLi.innerText = commentBar.innerText
-//     commentForm.append(commentLi)
-// }
+function addComment() {
+    const commentForm = document.querySelector('#fg-comments')
+    const commentLi = document.createElement('li')
+    commentLi.innerText = commentBar.innerText
+    commentForm.append(commentLi)
+}
